@@ -30,7 +30,7 @@ p {
     margin: 10px 0;
 }
 
-ul {
+ol, ul {
     list-style-type: none;
     margin: 10px 0;
     padding-left: 20px;
@@ -46,7 +46,7 @@ a:hover {
 }
 
 /* Blog content styling */
-.blog-content {
+.content {
     margin-top: 30px;
 }
 
@@ -63,9 +63,46 @@ h2 {
     color: #007bb5;
 }
 
-footer {
+/* FAQ Styling */
+.faq {
+    margin-top: 15px;
+}
+
+.faq h3 {
+    font-size: 22px;
+}
+
+/* Call to Action Styling */
+.cta-container {
     text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-    color: #777;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bb5;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005f83;
+    cursor: pointer;
+}
+
+.cta-button:active {
+    background-color: #004c66;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
 }
